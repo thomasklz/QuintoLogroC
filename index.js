@@ -10,7 +10,7 @@ const port = 3000
 app.use(express.json()); 
 app.use(express.urlencoded({ extended: true })); 
 
-//app.use('/api', userRoutes);
+//app.use('/api', RouterVentas);
 
 const main= async () =>{
     try {
